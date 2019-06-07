@@ -25,15 +25,4 @@ module.exports = app => {
         .get(app.api.products.getById)
         .put(app.api.products.save)
         .delete(app.api.products.remove)
-
-    // app.route('/categories')
-    //     .all(app.config.passport.authenticate())
-    //     .get(app.api.category.get)
-    //     .post(app.api.category.save)
-
-    // app.route('/categories/:id')
-    //     .all(app.config.passport.authenticate())
-    //     .get(app.api.category.getById)
-    //     .put(app.api.category.save)
-    //     .delete(app.api.category.remove)
 }
